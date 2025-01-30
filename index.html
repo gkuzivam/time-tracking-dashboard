@@ -1,30 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- displays site properly based on user's device -->
 
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="32x32"
-      href="./images/favicon-32x32.png"
-    />
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- displays site properly based on user's device -->
 
-    <title>Frontend Mentor | Time tracking dashboard</title>
-    <link rel="stylesheet" href="styles.css" />
-  </head>
-  <body>
-    <div class="grid-container">
-      <div class="left-column">Left</div>
-      <div class="grid-item" style="grid-column: 2;">1</div>
-      <div class="grid-item" style="grid-column: 3;">2</div>
-      <div class="grid-item" style="grid-column: 4;">3</div>
-      <div class="grid-item" style="grid-column: 2; grid-row: 2;">4</div>
-      <div class="grid-item" style="grid-column: 3; grid-row: 2;">5</div>
-      <div class="grid-item" style="grid-column: 4; grid-row: 2;">6</div>
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
+
+  <title>Frontend Mentor | Time tracking dashboard</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link href="https://fonts.googleapis.com/css?family=Rubik" rel="stylesheet">
+</head>
+
+<body>
+  <div class="grid-container">
+    <!--LEFT COLUMN-->
+    <div class="left-column">
+      <div class="report">
+        <div class="report-card">
+          <img src="images/image-jeremy.png" alt="Jeremy's Image">
+          <span class="report-text">Report for</span>
+          <span class="profile-name"> Jeremy </span>
+          <span class="profile-surname"> Robson</span>
+        </div>
+        <div class="frequency">
+          <span class="daily">Daily</span>
+          <span class="weekly">Weekly</span>
+          <span class="monthly">Monthly</span>
+        </div>
+      </div>
+    </div>
+    <!--GRID ITEMS-->
+    <div class="grid-item grid-item-one">1</div>
+    <div class="grid-item grid-item-two">2</div>
+    <div class="grid-item grid-item-three">3</div>
+    <div class="grid-item grid-item-four">4</div>
+    <div class="grid-item gride-item-five">5</div>
+    <div class="grid-item grid-item-six">6</div>
   </div>
-    
-  </body>
+
+</body>
+
 </html>
