@@ -11,6 +11,7 @@
   <title>Frontend Mentor | Time tracking dashboard</title>
   <link rel="stylesheet" href="styles.css" />
   <link href="https://fonts.googleapis.com/css?family=Rubik" rel="stylesheet">
+  <script defer src="main.js"></script>
 </head>
 
 <body>
@@ -25,19 +26,103 @@
           <span class="profile-surname"> Robson</span>
         </div>
         <div class="frequency">
-          <span class="daily">Daily</span>
-          <span class="weekly">Weekly</span>
-          <span class="monthly">Monthly</span>
+          <button class="daily" id="daily">Daily</button>
+          <button class="weekly" id="weekly">Weekly</button>
+          <button class="monthly" id="monthly">Monthly</button>
         </div>
       </div>
     </div>
     <!--GRID ITEMS-->
-    <div class="grid-item grid-item-one">1</div>
-    <div class="grid-item grid-item-two">2</div>
-    <div class="grid-item grid-item-three">3</div>
-    <div class="grid-item grid-item-four">4</div>
-    <div class="grid-item gride-item-five">5</div>
-    <div class="grid-item grid-item-six">6</div>
+    <div class="grid-item grid-item-one">
+      <div class="top-card-one">
+        <img src="images/icon-work.svg" alt="Work Icon">
+      </div>
+      <div class="activity-card ">
+        <div class="activity-header">
+          <p class="activity-text">Work</p>
+          <img src="images/icon-ellipsis.svg" alt="Icon Ellipsis">
+        </div>
+        <div id="work-card">
+          <p class="current-hours"></p>
+          <p class="previous-hours"></p>
+        </div>
+      </div>
+    </div>
+    <div class="grid-item grid-item-two">
+      <div class="top-card-two">
+        <img src="images/icon-play.svg" alt="Play Icon">
+      </div>
+      <div class="activity-card">
+        <div class="activity-header">
+          <p class="activity-text">Play</p>
+          <img src="images/icon-ellipsis.svg" alt="Icon Ellipsis">
+        </div>
+        <div id="play-card">
+          <p class="current-hours"></p>
+          <p class="previous-hours"></p>
+        </div>
+      </div>
+    </div>
+    <div class="grid-item grid-item-three">
+      <div class="top-card-three">
+        <img src="images/icon-study.svg" alt="Study Icon">
+      </div>
+      <div class="activity-card">
+        <div class="activity-header">
+          <p class="activity-text">Study</p>
+          <img src="images/icon-ellipsis.svg" alt="Icon Ellipsis">
+        </div>
+        <div id="study-card">
+          <p class="current-hours"></p>
+          <p class="previous-hours"></p>
+        </div>
+      </div>
+    </div>
+    <div class="grid-item grid-item-four">
+      <div class="top-card-four">
+        <img src="images/icon-exercise.svg" alt="Exercise Icon">
+      </div>
+      <div class="activity-card">
+        <div class="activity-header">
+          <p class="activity-text">Exercise</p>
+          <img src="images/icon-ellipsis.svg" alt="Icon Ellipsis">
+        </div>
+        <div id="exercise-card">
+          <p class="current-hours"></p>
+          <p class="previous-hours"></p>
+        </div>
+      </div>
+    </div>
+    <div class="grid-item gride-item-five">
+      <div class="top-card-five">
+        <img src="images/icon-social.svg" alt="Social Icon">
+      </div>
+      <div class="activity-card">
+        <div class="activity-header">
+          <p class="activity-text">Social</p>
+          <img src="images/icon-ellipsis.svg" alt="Icon Ellipsis">
+        </div>
+        <div id="social-card">
+          <p class="current-hours"></p>
+          <p class="previous-hours"></p>
+        </div>
+      </div>
+    </div>
+    <div class="grid-item grid-item-six">
+      <div class="top-card-six">
+        <img src="images/icon-self-care.svg" alt="Self Care Icon">
+      </div>
+      <div class="activity-card">
+        <div class="activity-header">
+          <p class="activity-text">Self Care</p>
+          <img src="images/icon-ellipsis.svg" alt="Icon Ellipsis">
+        </div>
+        <div id="self-care-card">
+          <p class="current-hours"></p>
+          <p class="previous-hours"></p>
+        </div>
+      </div>
+    </div>
   </div>
 
 </body>
