@@ -16,7 +16,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Github](https://github.com/gkuzivam/time-tracking-dashboard/tree/main)
-- Live Site URL: [live site](https://time-tracking-dashboard-9kg6libjs-gkuzivams-projects.vercel.app/)
+- Live Site URL: [live site](https://time-tracking-dashboard-eight-delta.vercel.app/)
 
 
 ### Built with
